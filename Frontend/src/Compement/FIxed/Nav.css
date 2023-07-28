@@ -1,0 +1,20 @@
+.navbar {
+  background: rgb(0, 0, 0); /* Sets the background color to black */
+  color: white; /* Sets the text color to white */
+}
+
+.navbar-text {
+  display: table-header-group;
+  margin-right: 43px; /* Add right margin to the text on the right side */
+}
+.navbar a {
+  color: rgb(199, 196, 196);
+}
+
+/* Set the text color of the brand/logo text */
+.navbar-brand {
+  color: rgb(199, 196, 196);
+}
+.navbar-text {
+  color: rgb(199, 196, 196);
+}

@@ -1,0 +1,129 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(49, 47, 47);
+}
+
+.screen__home {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.card {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+/*Chat */
+.add-room {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 90px;
+  right: 50px;
+  z-index: 999;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-pop-up {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 999;
+  text-align: center;
+}
+
+.form-pop-up h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.form-pop-up form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-pop-up label {
+  font-weight: bold;
+}
+
+.form-pop-up input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-pop-up button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 20px;
+  cursor: pointer;
+}
+.join-button {
+  background-color: rgb(50, 120, 211);
+  border: none;
+  border-radius: 20%;
+  color: #e0e4e9;
+  font-size: 20px;
+  cursor: pointer;
+}
+.alert {
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  z-index: 9999;
+}
